@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Rascunho - DrivenEats</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      </style> 
+
+  </head>
+
+  <body>
+
+    <div class="topo">
+      <h1>DrivenEats</h1>
+      <h2>Sua comida em 6 minutos</h2>
+    </div>
+
+    <div class="caixa">
+
+      <!-- Seção dos pratos -->
+      <h3>Primeiro, seu prato</h3>
+      <div class="section1">
+
+        <div class="prato">
+          <div id="frango1" class="prato1" onclick="escolherPrato1(this)">
+            <img src="img/prato.png">
+            <h4>Frango Ying Yang</h4>
+            <h5>Um pouco de batata, um pouco de salada</h5>
+            <h6>R$ 14,90</h6>
+          </div>
+
+          <div id="frango2" class="prato1" onclick="escolherPrato2(this)">
+            <img src="img/prato.png">
+            <h4>Frango Ying Yang</h4>
+            <h5>Um pouco de batata, um pouco de salada</h5>
+            <h6>R$ 14,90</h6>
+          </div>
+
+          <div id="frango3" class="prato1" onclick="escolherPrato3(this)"> 
+            <img src="img/prato.png">
+            <h4>Frango Ying Yang</h4>
+            <h5>Um pouco de batata, um pouco de salada</h5>
+            <h6>R$ 14,90</h6>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Seção das bebidas -->
+      <h3>Agora sua bebida</h3>
+      <div class="section2">
+        <div class="bebida" >
+          <div id="bebida1"  class="bebida1" onclick="escolherBebida1(this)">
+            <img src="img/coca.png">
+            <h4>Coquinha gelada</h4>
+            <h5>Lata 350ml</h5>
+            <h6>R$ 4,90</h6>
+          </div>
+
+          <div id="bebida2" class="bebida1" onclick="escolherBebida2(this)">
+            <img src="img/coca.png">
+            <h4>Coquinha gelada</h4>
+            <h5>Lata 350ml</h5>
+            <h6>R$ 4,90</h6>
+          </div>
+
+          <div id="bebida3" class="bebida1" onclick="escolherBebida3(this)">
+            <img src="img/coca.png">
+            <h4>Coquinha gelada</h4>
+            <h5>Lata 350ml</h5>
+            <h6>R$ 4,90</h6>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Seção das sobremesas -->
+    
+      <h3>Por fim, sua sobremesa</h3>
+      <div class="section3">
+        <div class="sobremesa">
+          <div id="sobremesa1" class="sobremesa1" onclick="escolherSobremesa1(this)">
+            <img src="img/pudim.png">
+            <h4>Pudim</h4>
+            <h5>Apenas pudim</h5>
+            <h6>R$ 7,90</h6>
+          </div>
+
+          <div id="sobremesa2" class="sobremesa1" onclick="escolherSobremesa2(this)">
+            <img src="img/pudim.png">
+            <h4>Pudim</h4>
+            <h5>Apenas pudim</h5>
+            <h6>R$ 7,90</h6>
+          </div>
+
+          <div id="sobremesa3" class="sobremesa1" onclick="escolherSobremesa3(this)">
+            <img src="img/pudim.png">
+            <h4>Pudim</h4>
+            <h5>Apenas pudim</h5>
+            <h6>R$ 7,90</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section4">
+      <button class="botao" onclick="finalizar()"> Selecione os 3 itens para fechar o pedido</button>
+    </div>
+
+    <script src="scripts.js"> </script>
+  </body>
+
+
+</html>
